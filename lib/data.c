@@ -53,10 +53,10 @@ EFI_MEMORY_TYPE PoolAllocationType = EfiBootServicesData;
 //
 
 EFI_UNICODE_COLLATION_INTERFACE   LibStubUnicodeInterface = {
-    LibStubStriCmp,
-    LibStubMetaiMatch,
-    LibStubStrLwrUpr,
-    LibStubStrLwrUpr,
+    NULL,   //LibStubStriCmp
+    NULL,   //LibStubMetaiMatch
+    NULL,   //LibStubStrLwrUpr
+    NULL,   //LibStubStrLwrUpr
     NULL,   // FatToStr
     NULL,   // StrToFat
     NULL    // SupportedLanguages
